@@ -1,2 +1,4 @@
-gameOfLife
-==========
+proj1
+=====
+
+Project 1
