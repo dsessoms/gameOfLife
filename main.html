@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="pizazz.css" />
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<title>Conway's game of life</title>
+</head>
+<body>
+	<h1 id="title"> GAME OF LIFE </h1>
+	<div id="rules">
+	<ul id="rules1">
+			<li>Rule 1: =2 neighbors = stable</li>
+			&nbsp
+			&nbsp
+			<li>Rule 2: &gt3 neighbors = death</li>
+	</ul>
+	<ul id="rules2">
+		<li>Rule 3: =3 neigbors= stable/birth</li>
+		&nbsp
+		&nbsp
+		<li>Rule 4: &lt2 neigbors= death</li>
+	</ul>
+</div>
+
+	<center>
+	<p id="description">John Conway created a simple game that simulates cells and their interaction with each other</p>
+	
+	<table id="gameGrid" border="1" cellpadding="10">
+		<tr>
+			<td>this is a where the game grid goes</td>
+		</tr>
+</table>
+
+<button id="start" type="button">Start!</button>
+<button id="stop" type="button">Stop!</button>
+<button id="random" type="button">Random!</button>
+<button id="clear" type="button">Clear!</button>
+</center>
+
+</body>
+
+<script src="game_of_life2.js"></script>
+<script src="gameBoard.js"></script>
+<script src="htmlGame.js"></script>
+<script src="testing.js"></script>
+<script src="startAll.js"></script>
+
+	&nbsp
+	&nbsp
+	<p id="instructions">
+		<b>Instructions:</b> Click on the board to select the cells (blue = alive and white = dead). 
+		Clicking random will randomly assign cells to be alive. 
+		Stopping and clearing the table will allow you to re-click on the table. 
+	</p>
+
+</html>

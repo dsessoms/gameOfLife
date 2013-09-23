@@ -1,0 +1,22 @@
+#title {
+	font-family:Arial;
+	font-size:36px;
+	color: #3B6AA0;
+	text-align: center;
+}
+#rules1 {
+	float:left;
+}
+#rules2 {
+	float:right;
+}
+#grid {
+	float: center;
+}
+#rules {
+	font-family:arial;
+	font-size:20px;
+}
+#instructions {
+	float:left;
+}
